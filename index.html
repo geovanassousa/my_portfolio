@@ -2,28 +2,94 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Geovana Santos | Portfólio</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
 
-  <header>
-    <h1>Geovana Santos</h1>
-    <p>Estudante de Sistemas de Informação</p>
-  </header>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Geovana.</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
 
-  <section>
-    <h2>Sobre Mim</h2>
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <img src="sua-foto.jpg" alt="Geovana" class="profile-img">
+      <div class="social-icons">
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#">Email</a>
+        <a href="#" target="_blank">Instagram</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <p class="intro">Olá, eu sou</p>
+      <h1>Geovana Santos</h1>
+      <h2>Estudante de Sistemas de Informação</h2>
+      <p class="subtitle">
+        Transformando ideias em soluções tecnológicas com propósito.
+      </p>
+      <a href="#projetos" class="btn-primary">Ver Projetos</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="section">
+    <h2>Sobre mim</h2>
     <p>
-      Sou estudante de Sistemas de Informação apaixonada por tecnologia,
-      desenvolvimento de software e inovação.
+      Sou estudante de Sistemas de Informação, apaixonada por desenvolvimento de software e pela criação de soluções tecnológicas com impacto real.
     </p>
   </section>
 
-  <section>
+  <!-- PROJETOS -->
+  <section id="projetos" class="section">
     <h2>Projetos</h2>
-    <p>Em breve meus projetos aparecerão aqui.</p>
+
+    <div class="project-card">
+      <div class="carousel">
+        <img src="img1.jpg" class="active">
+        <img src="img2.jpg">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+      <h3>Sistema de Organização de Eventos</h3>
+      <p>Sistema desenvolvido em C com uso de fila, pilha e lista encadeada.</p>
+      <div class="tags">
+        <span>C</span>
+        <span>Estruturas de Dados</span>
+      </div>
+      <div class="project-buttons">
+        <a href="#" target="_blank" class="btn-outline">GitHub</a>
+      </div>
+    </div>
+
   </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section contato">
+    <h2>Vamos conversar?</h2>
+    <p>Estou aberta a novas oportunidades e colaborações.</p>
+    <div class="contact-buttons">
+      <a href="#" target="_blank">LinkedIn</a>
+      <a href="#" target="_blank">GitHub</a>
+      <a href="#">Email</a>
+      <a href="#" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Geovana Santos. Todos os direitos reservados.
+  </footer>
 
 </body>
 </html>
