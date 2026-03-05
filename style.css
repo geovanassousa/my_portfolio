@@ -99,6 +99,24 @@ p {
   color: var(--primary);
 }
 
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0.5rem;
+}
+
+.lang-sep {
+  color: var(--border);
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+.lang-link.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
 /* HERO */
 .hero {
   max-width: 1200px;
